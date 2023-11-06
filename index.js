@@ -51,7 +51,7 @@ searchTab.addEventListener("click", () => {
 function getfromSessionStorage() {
     const localCoordinates = sessionStorage.getItem("user-coordinates");
     if(!localCoordinates) {
-        //agar local coordinates nahi mile
+        ///if local coordinates haven't go
         grantAccessContainer.classList.add("active");
     }
     else {
